@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* start section  header */
+.header {
+  width: 98.8vw;
+  height: 94px;
+  font-size: 16px;
+  position: sticky;
+  box-shadow: 0px 1px 5px rgb(247, 248, 248);
+  top: 1px;
+  background-color: white;
+  z-index: 1;
+}
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.manu ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.manu ul li img {
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.number button {
+  padding: 15px 45px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: rgb(37, 58, 245);
+  color: white;
+}
+
+/* Start of Section Main */
+
+#Hero {
+  background-image: url(dots-bg.svg);
+  background-size: 1.8vw;
+  padding-top: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 30px 0px;
+  gap: 120px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 70px;
+}
+.content h1 {
+  line-height: 50px;
+}
+.paragraph-after-h1 {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.bold-text-bg {
+  display: inline-block;
+  background-color: blue;
+  padding: 2px 10px;
+  color: white;
+  transform: rotate(2deg);
+}
+
+span {
+  display: inline-block;
+  transform: rotate(-2deg);
+}
+.content ul {
+  margin-top: 35px;
+  line-height: 38px;
+}
+.content ul li {
+  list-style-position: inside;
+  list-style-type: none;
+  font-size: 20px;
+}
+.tick img {
+  margin-right: 8px;
+}
+
+.cta {
+  padding: 10px 25px;
+  font-size: 20px;
+  margin-top: 35px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  color: blue;
+  background-color: white;
+}
+.cta:hover {
+  background-color: rgb(33, 33, 233);
+  color: white;
+}
+
+/* starting of counter section */
+.counter {
+  width: 85vw;
+  margin: 40px auto;
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: #f7f4f4;
+  border-bottom: 5px solid blue;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.12);
+}
+.num {
+  font-size: 38px;
+  margin: 10px 0px;
+}
+.value {
+  font-size: 18px;
+}
+
+/* starting section of companies */
+.companies {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 35px 0px 100px 0px;
+}
+
+/* starting of section case study */
+
+section.casestudy {
+  text-align: center;
+}
+.casestudy h2 {
+  font-size: 38px;
+}
+.case {
+  background-color: blue;
+  padding: 1px 10px;
+  color: white;
+  display: inline-block;
+  transform: rotate(2deg);
+}
+.casestudy p {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 450px;
+  gap: 40px;
+  margin: 100px 50px 80px 50px;
+}
+.box {
+  background-color: beige;
+  border-radius: 15px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: relative;
+}
+.box a {
+  text-decoration: none;
+}
+.img1 {
+  padding-bottom: 10px;
+}
+.img2 {
+  position: absolute;
+  height: 150px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.box1 {
+  background-color: #e9e9e9;
+}
+.box2 {
+  background-color: #e2f0d9;
+}
+.box3 {
+  background-color: #d6efe9;
+}
+.box4 {
+  background-color: #eaf1d0;
+}
+
+/* starting the section of double button */
+.double {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0px 0px 50px 0px;
+}
+
+.double button {
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+/* start the section of girl */
+
+.girl {
+    width:90vw;
+    height: 400px;
+    margin: 0px 50px 50px 50px;
+    background-color: blue;
+    border-radius: 20px;
+    text-wrap: wrap;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+.girlcontent {
+    width: 60%;
+    padding-left: 50px;
+}
+.girlcontent h2 {
+    font-size: 35px;
+}
+.girlcontent p {
+    font-size: 18px;
+    margin-top: 18px;
+}
+.girlbold {
+    background-color: white;
+    display: inline-block;
+    padding: 0px 5px;
+    transform: rotate(3deg);
+    color: blue;
+}
+.one {
+    transform: rotate(-3deg);
+}
+.girlcontent a button {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+}
+.girlcontent a button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.girlimg {
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: right;
+}
